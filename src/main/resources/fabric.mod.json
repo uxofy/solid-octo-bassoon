@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "elytrahud",
+  "version": "${version}",
+  "name": "Elytra HUD",
+  "description": "Shows an elytra outline icon under the crosshair while you wear elytra.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.elytrahud.ElytraHudClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
